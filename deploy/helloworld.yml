@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: buvan/demo-concourse-flux:1.0.7
+        image: nginx
         imagePullPolicy: Always
         ports:
         - name: web
